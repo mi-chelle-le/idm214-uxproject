@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -27,9 +33,9 @@ img {
 
 .drop-zone {
     width: 600px;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
-    background: #bc8761;
+    background: #bc8864;
 }
 
 .drop-zone {
@@ -37,34 +43,3 @@ img {
     align-items: center;
     justify-content: center;
   }
-
-
-
-/*ul {
-    list-style-type: none;
-}
-  
-  img {
-    /*cursor: pointer;*/
-    /*width: 200px;
-  }
-  
-  .drop-zone {
-    width: 600px;
-    height: 300px;
-    overflow: hidden;
-    background: #bc8761;
-    color: white;
-  }
-  
-  .drop-zone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }*/
